@@ -11,4 +11,4 @@ def ensure_gradio_installed():
 def install_gradio():
     python_executable = sys.executable
     subprocess.check_call([python_executable, '-m', 'ensurepip'])
-    subprocess.check_call([python_executable, '-m', 'pip', 'install', 'gradio_client'])
+    subprocess.check_call([python_executable, '-m', 'pip', 'install', 'gradio_client==1.0.1'])
